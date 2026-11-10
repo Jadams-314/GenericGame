@@ -1,0 +1,11 @@
+Create node
+
+routing between webpages:
+    -Welcome/home page (start button, takes you to game page)
+    -game page
+      -left path page   -right path page
+    -left right                left right
+
+Frontend:
+    -stylesheet
+    -game concept/description in home page
