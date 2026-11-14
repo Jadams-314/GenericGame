@@ -1,8 +1,110 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+a:link {
+  color: #060606;
+}
+
+
+a:visited {
+  color: #4e4b4b;
+}
+
+
+a:hover {
+  color: #f7fafa;
+}
+
+
+a:active {
+  color: #cc0000;
 }
 
 a {
-  color: #00B7FF;
+  text-decoration: none;
+}
+
+.badpath{
+
+  a:link{
+    color: pink;
+  }
+  a:hover {
+    color: #0af012;
+}
+a:visited {
+    color: #07f8ec;
+}
+}
+
+.rainbow-box {
+  
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px;
+  display: inline-block;
+
+
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+
+  border: 6px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  ) 1;
+}
+
+.not-rainbow-box {
+  
+  font-family: "Times New Roman", cursive;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px;
+  display: inline-block;
+
+
+  background-image: linear-gradient(
+    to right,
+    rgb(12, 0, 0),
+    rgb(7, 5, 0),
+    rgb(12, 12, 0),
+    rgb(0, 6, 0),
+    rgb(0, 0, 9),
+    rgb(5, 0, 8),
+    rgb(7, 0, 7)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+
+  border: 6px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    rgb(20, 4, 4),
+    rgb(16, 11, 2),
+    rgb(10, 10, 0),
+    rgb(0, 9, 0),
+    rgb(0, 0, 10),
+    rgb(10, 0, 17),
+    rgb(15, 0, 15)
+  ) 1;
 }

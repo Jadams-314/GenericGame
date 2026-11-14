@@ -1,0 +1,36 @@
+.rainbow-box {
+  
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px;
+  display: inline-block;
+
+
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+
+  border: 6px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  ) 1;
+}
