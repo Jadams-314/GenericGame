@@ -1,0 +1,13 @@
+body {
+  padding: 50px;
+  font-family: "Papyrus";
+  background-image: url("../images/right1.png");
+}
+
+p {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 22px;
+}
