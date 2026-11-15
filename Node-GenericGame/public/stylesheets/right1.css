@@ -2,12 +2,22 @@ body {
   padding: 50px;
   font-family: "Papyrus";
   background-image: url("../images/right1.png");
+  text-align: center;
 }
 
 p {
   font-size: 14px;
+  background-color: rgb(255, 255, 255);
 }
 
 h1 {
   font-size: 22px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+h3 {
+  font-size: 60px;
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
