@@ -29,6 +29,16 @@ app.get('/left1', (req, res) => {
 app.get('/right1', (req, res) => {
   res.sendFile(path.join(__dirname, 'public','right1.html'));
 });
+app.get('/login', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public','login.html'));
+});
+app.get('/profile', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public','profile.html'));
+});
+app.get('/signup', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public','signup.html'));
+});
+
 
 
 app.use('/', indexRouter);
